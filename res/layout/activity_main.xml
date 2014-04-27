@@ -18,19 +18,6 @@
         android:scaleType="fitCenter"
         android:src="@drawable/ball01" />
 
-    <Button
-        android:id="@+id/button1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/imageView1"
-        android:text="Enlighten me!"
-        android:textColor="#3f0f7f"
-        android:textSize="24sp"
-        android:textStyle="bold|italic"
-        android:typeface="serif" 
-        android:background="@android:drawable/btn_default" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
