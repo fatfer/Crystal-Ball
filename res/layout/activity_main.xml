@@ -23,14 +23,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:shadowColor="@android:color/white"
+        android:shadowRadius="10"
+        android:textColor="@android:color/white"
         android:textSize="32sp" />
-    
+
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+@id/textView1"
-        android:layout_centerHorizontal="true"
-        android:text="Enlighten me!" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/imageView1"
+        android:text="Enlighten me!"
+        android:textColor="#3f0f7f"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" 
+        android:background="@android:drawable/btn_default" />
 
 </RelativeLayout>
