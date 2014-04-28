@@ -17,6 +17,7 @@ import com.example.crystalball.ShakeDetector.OnShakeListener;
 
 public class MainActivity extends ActionBarActivity {
 	
+	private CrystalBall mCrystalBall = new CrystalBall();
 	private TextView mAnswerLabel;
 	private ImageView mCrystalBallImage;
 	private SensorManager mSensorManager;
@@ -107,7 +108,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
 	private void handleNewAnswer() {
-		String answer = "Yes";
+		String answer = mCrystalBall.getAnAnswer();
 		mAnswerLabel.setText(answer);
 		
 		animateCrystalBall();
